@@ -5,6 +5,7 @@
     transform: translateZ(0);
     box-sizing: border-box;
     font-size: 13px;
+    
 }
 
 .side-nav{
@@ -44,3 +45,11 @@
     background-color: rgb(225, 225, 225);
     border-right: solid 3px #ef8236;
 }
+
+
+@media (max-width: 768px) {
+    .left-sidebar{
+      display: none;
+      
+    }
+  }

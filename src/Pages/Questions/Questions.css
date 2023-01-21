@@ -3,6 +3,7 @@
     float: left;
     margin: 25px 0px;
     padding: 0px;
+    
 }
 
 .question-details-container{
@@ -122,3 +123,10 @@
     line-height: 18px;
     white-space: pre-line;
 }
+
+@media(max-width: 1100px) {
+    .question-details-page {
+      width: 80%;
+      
+    }
+  }

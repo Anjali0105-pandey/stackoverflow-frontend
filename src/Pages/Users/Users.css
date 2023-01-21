@@ -25,3 +25,11 @@
 .user-profile-link h5{
     margin: 0px 10px;
 }
+
+@media (max-width: 420px) {
+    
+      .s-input {
+        margin-bottom: 1rem;
+      }
+    
+  }
