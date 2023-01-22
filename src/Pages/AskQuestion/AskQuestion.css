@@ -53,3 +53,22 @@
 .review-btn:hover{
     background-color: #0086d8;
 }
+
+@media (min-width: 425px) {
+    .askquesform {
+      display: initial;
+    }
+  }
+  @media (min-width: 375px) {
+    .askquesform {
+      display: initial;
+    }
+  }
+  @media (min-width: 320px) {
+    h1 {
+      font-size: 25px;
+    }
+    .askquesform {
+      display: initial;
+    }
+  }

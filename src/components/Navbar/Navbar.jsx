@@ -37,9 +37,9 @@ const Navbar = () => {
                 <Link to='/' className='nav-item nav-logo'>
                     <img src={logo} alt='logo' />
                 </Link>
-                <Link to='/' className='nav-item nav-btn'>About</Link>
-                <Link to='/' className='nav-item nav-btn'>Products</Link>
-                <Link to='/' className='nav-item nav-btn'>For Teams</Link>
+                <Link to='/' className='nav-item mid-nav-item nav-btn'>About</Link>
+                <Link to='/' className='nav-item mid-nav-item nav-btn'>Products</Link>
+                <Link to='/' className='nav-item mid-nav-item nav-btn'>For Teams</Link>
                 <form>
                     <input type="text" placeholder='Search...'/>
                     <img src={search} alt="search" width="18" className='search-icon'/>

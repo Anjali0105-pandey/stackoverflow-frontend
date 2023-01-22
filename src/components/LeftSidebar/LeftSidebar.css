@@ -47,9 +47,16 @@
 }
 
 
+@media (max-width: 576px) {
+}
 @media (max-width: 768px) {
-    .left-sidebar{
-      display: none;
-      
-    }
+}
+@media (max-width: 1024px) {
+  .left-sidebar {
+    width: 140px;
   }
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 1400px) {
+}

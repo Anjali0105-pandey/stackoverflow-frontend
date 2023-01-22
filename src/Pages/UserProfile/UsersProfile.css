@@ -80,3 +80,65 @@
     margin-left: 10px;
     cursor: pointer;
 }
+
+@media (max-width: 376px) {
+    .edit-profile-btn-big {
+      display: none;
+    }
+    .edit-profile-btn-small {
+      display: initial;
+    }
+  }
+  @media (min-width: 425px) {
+    .edit-profile-btn-small {
+      display: none;
+    }
+  }
+  @media (max-width: 426px) {
+    .user-details {
+      flex-direction: column;
+    }
+    .user-name {
+      padding-left: 0px;
+    }
+    .user-name h1 {
+      font-size: 16px;
+    }
+    .user-name p {
+      font-size: 13px;
+    }
+    .edit-profile-form {
+      display: initial;
+    }
+    .edit-profile-form label input,
+    .edit-profile-form label textarea {
+      width: 90%;
+    }
+  }
+  @media (max-width: 576px) {
+    .user-details {
+      flex-direction: column;
+    }
+    .user-name {
+      padding-left: 0px;
+    }
+    .user-name h1 {
+      font-size: 16px;
+    }
+    .user-name p {
+      font-size: 13px;
+    }
+    .edit-profile-form {
+      display: initial;
+    }
+    .edit-profile-form label input,
+    .edit-profile-form label textarea {
+      width: 90%;
+    }
+  }
+  @media (max-width: 1025px) {
+    .user-details-container {
+      padding-right: 20px;
+    }
+  }
+  

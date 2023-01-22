@@ -124,9 +124,36 @@
     white-space: pre-line;
 }
 
-@media(max-width: 1100px) {
-    .question-details-page {
-      width: 80%;
-      
-    }
+@media (min-width: 320px) {
+}
+@media (min-width: 375px) {
+}
+@media (min-width: 576px) {
+}
+@media (max-width: 576px) {
+}
+@media (max-width: 426px) {
+  .post-ans-container form,
+  .post-ans-container textarea,
+  .post-ans-container input {
+    display: initial;
   }
+}
+@media (max-width: 576px) {
+  .post-ans-container form,
+  .post-ans-container textarea,
+  .post-ans-container input {
+    display: initial;
+  }
+}
+@media (max-width: 768px) {
+  .question-details-page {
+    width: 100%;
+  }
+}
+@media (width: 1024px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 1400px) {
+}

@@ -77,3 +77,24 @@
 .nav-links:hover{
     background-color: #d3e4eb;
 }
+
+@media (max-width: 576px) {
+    .mid-nav-item,
+    form {
+      display: none;
+    }
+  }
+  @media (max-width: 768px) {
+    .mid-nav-item {
+      display: none;
+    }
+  }
+  @media (max-width: 992px) {
+  }
+  @media (max-width: 1200px) {
+    .navbar form input {
+      min-width: 80%;
+    }
+  }
+  @media (max-width: 1400px) {
+  }

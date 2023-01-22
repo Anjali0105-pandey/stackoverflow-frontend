@@ -88,17 +88,32 @@
     cursor: pointer;
 }
 
-@media (max-width: 799px) {
-    .auth-section{
-      flex-direction: column;
-      padding: 7rem 0;
+@media (min-width: 320px) {
+    .auth-section {
+      width: 70%;
     }
-    .auth-container-1{
-        top:0;
-        padding-left:55px;
+  }
+  @media (max-width: 576px) {
+    .auth-container-1 {
+      display: none;
     }
-    .auth-container-2 form {
-      height: auto;
-      margin: auto 0;
+  }
+  @media (max-width: 768px) {
+    .auth-container-1 {
+      max-width: 300px;
     }
+  }
+  @media (min-width: 768px) {
+    .auth-section {
+      width: 100%;
+    }
+    .auth-container-2 {
+      max-width: 30%;
+    }
+  }
+  @media (max-width: 1024px) {
+  }
+  @media (max-width: 1200px) {
+  }
+  @media (max-width: 1400px) {
   }
